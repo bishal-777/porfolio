@@ -68,8 +68,9 @@
 .boxes {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     gap: 20px;
+    overflow-x: auto;
 }
 .section2 {
     margin-top: 20px;
@@ -89,8 +90,9 @@
 .projects {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     gap: 20px;
+    overflow-x: auto;
 }
 .projects ul {
     list-style: none;
