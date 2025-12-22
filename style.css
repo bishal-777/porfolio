@@ -13,11 +13,27 @@
     height: 67px;
     font-family: 'Inter', sans-serif;
     color: #303031;
+    gap: 8px;
 }
 .navbar li {  
     list-style: none;
-    margin: 0 12px;
+    margin: 0 10px;
     cursor: pointer;
+}
+.navbar a {
+    color: inherit;
+    text-decoration: none;
+    padding: 8px 10px;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+.nav-icon {
+    font-size: 1.2rem;
+}
+.nav-icon:hover,
+.nav-link:hover {
+    color: #19194a;
 }
 .section1 {
     max-height: 100vh;
